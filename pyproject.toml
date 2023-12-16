@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aofsync"
+version = "0.1.0"
+description = "Another offline file sync tool"
+authors = ["Alf <naihe2010@126.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<=3.11"
+nuitka = "^1.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
